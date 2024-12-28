@@ -59,18 +59,18 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://nimicurtis.github.io/" target="_blank">Nimrod Curtis</a><sup>1</sup> and
+                <a href="https://nimicurtis.github.io/" target="_blank">Nimrod Curtis</a> and
               </span>
               <span class="author-block">
-                <a href="https://osheraz.github.io/" target="_blank">Osher Azulay</a><sup>1</sup>
+                <a href="https://osheraz.github.io/" target="_blank">Osher Azulay</a>
               </span>,
               <span class="author-block">
-                <a href="https://robotics.sites.tau.ac.il/" target="_blank">Avishai Sintov</a><sup>1</sup>
+                <a href="https://robotics.sites.tau.ac.il/" target="_blank">Avishai Sintov</a>
               </span>
             </div>
 
             <div class="is-size-5 publication-authors">
-              <span class="author-block">Tel-Aviv University<sup>1</sup>
+              <span class="author-block">Tel-Aviv University
               </span>
             </div>
 
@@ -131,7 +131,7 @@
 <section class="hero teaser">
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="static/images/concept_sketch.png" alt="Project Teaser" style="width: 100%; max-width: 1000px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" />
+  <img src="static/images/Teaser.png" alt="Project Teaser" style="width: 100%; max-width: 1000px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" />
 </div>
 
 </section>
@@ -156,30 +156,32 @@
 
 <!-- End teaser video -->
 
-  <section class="hero is-small">
+<section class="hero is-small">
   <div class="hero-body">
-    <div class="container is-max-desktop">
+    
+    <!-- <div class="columns is-centered has-text-centered"> -->
+    <div class="container is-max-desktop has-text-centered">
       <h2 class="title is-3">Method</h2>
         <div class="item item-video1">
           <video poster="" id="video1" autoplay controls muted loop height="100%">
             <!-- Your video file here -->
-            <source src="static/videos/method.mp4"
+            <source src="static/videos/web_method.mp4"
             type="video/mp4">
           </video>
         </div>
-        </div>
-      </div>
+    </div>
+  </div>
 </section>
 
 <!-- Video carousel -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3">Learning teacher policy in simulation</h2>
+    <div class="container is-max-desktop has-text-centered">
+      <h2 class="title is-3">Deploy - Outdoor</h2>
         <div class="item item-video1">
           <video poster="" id="video1" autoplay controls muted loop height="100%">
             <!-- Your video file here -->
-            <source src="static/videos/crop.mp4"
+            <source src="static/videos/outdoor_env_web1.mp4"
             type="video/mp4">
           </video>
         </div>
@@ -190,12 +192,12 @@
 
   <section class="hero is-small">
   <div class="hero-body">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3">Robust insertion policy</h2>
+    <div class="container is-max-desktop has-text-centered">
+      <h2 class="title is-3">Deploy - Indoor</h2>
         <div class="item item-video1">
           <video poster="" id="video1" autoplay controls muted loop height="100%">
             <!-- Your video file here -->
-            <source src="static/videos/new.mp4"
+            <source src="static/videos/indoor_env_web1.mp4"
             type="video/mp4">
           </video>
         </div>
@@ -203,19 +205,49 @@
       </div>
 </section>
 
-  <section class="hero is-small">
+<section class="hero is-small">
   <div class="hero-body">
     <div class="container is-max-desktop">
-      <h2 class="title is-3">Real-World Deploy</h2>
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/real.mp4"
-            type="video/mp4">
-          </video>
+      <!-- Section Title -->
+      <h2 class="title is-3 has-text-centered">Handling of disturbances</h2>
+      
+      <!-- Columns of Videos -->
+      <div class="columns is-multiline is-centered">
+        <!-- Column 1 -->
+        <div class="column is-one-third">
+          <div class="item item-video1">
+            <video poster="" id="video1" autoplay controls muted loop width="100%">
+              <source src="static/videos/low_light_web.mp4" type="video/mp4">
+              <!-- Alternative text -->
+            </video>
+            <p class="has-text-centered subtitle is-5 has-text-weight-bold">Low light</p>
+          </div>
         </div>
+
+        <!-- Column 2 -->
+        <div class="column is-one-third">
+          <div class="item item-video2">
+            <video poster="" id="video2" autoplay controls muted loop width="100%">
+              <source src="static/videos/dynamic_obstacle_web.mp4" type="video/mp4">
+              <!-- Alternative text -->
+            </video>
+            <p class="has-text-centered subtitle is-5 has-text-weight-bold">Dynamic obstacle</p>
+          </div>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="column is-one-third">
+          <div class="item item-video3">
+            <video poster="" id="video3" autoplay controls muted loop width="100%">
+              <source src="static/videos/physical_web.mp4" type="video/mp4">
+              <!-- Alternative text -->
+            </video>
+            <p class="has-text-centered subtitle is-5 has-text-weight-bold">Physical perturbations</p>
+          </div>
         </div>
       </div>
+    </div>
+  </div>
 </section>
 
 
@@ -224,50 +256,50 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container is-max-desktop">
-            <h2 class="title is-3">Examples</h2>
+            <h2 class="title is-3 has-text-centered">Examples</h2>
 
         <div class="row" style="margin-top: 0px; margin-left: 5px;">
-        <h3 class="col-md-8 col-md-offset-2" style="font-size: 32px; font-weight: bold; text-align:center; margin-bottom: 50px;">
-         <div id="results-carousel" class="carousel results-carousel">
+        <h3 class="col-md-8 col-md-offset-1" style="font-size: 32px; font-weight: bold; text-align:center; margin-bottom: 50px;">
+        <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1" >
           <video poster="" id="video1" autoplay controls muted loop height="100%" >
             <!-- Your video file here -->
-            <source src="static/videos/Media1.mp4"
+            <source src="static/videos/indoor_env_web5.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video2">
           <video poster="" id="video2" autoplay controls muted loop height="100%">
             <!-- Your video file here -->
-            <source src="static/videos/Media2.mp4"
+            <source src="static/videos/outdoor_env_web2.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video3">
           <video poster="" id="video3" autoplay controls muted loop height="100%">\
             <!-- Your video file here -->
-            <source src="static/videos/Media3.mp4"
+            <source src="static/videos/indoor_env_web2.mp4"
             type="video/mp4">
           </video>
         </div>
                 <div class="item item-video4">
           <video poster="" id="video4" autoplay controls muted loop height="100%">\
             <!-- Your video file here -->
-            <source src="static/videos/Media4.mp4"
+            <source src="static/videos/outdoor_env_web3.mp4"
             type="video/mp4">
           </video>
         </div>
                 <div class="item item-video5">
           <video poster="" id="video5" autoplay controls muted loop height="100%">\
             <!-- Your video file here -->
-            <source src="static/videos/Media5.mp4"
+            <source src="static/videos/indoor_env_web3.mp4"
             type="video/mp4">
           </video>
         </div>
                 <div class="item item-video6">
           <video poster="" id="video6" autoplay controls muted loop height="100%">\
             <!-- Your video file here -->
-            <source src="static/videos/Media6.mp4"
+            <source src="static/videos/outdoor_env_web4.mp4"
             type="video/mp4">
           </video>
         </div>
@@ -275,7 +307,7 @@
                 <div class="item item-video7">
           <video poster="" id="video7" autoplay controls muted loop height="100%">\
             <!-- Your video file here -->
-            <source src="static/videos/Media7.mp4"
+            <source src="static/videos/indoor_env_web4.mp4"
             type="video/mp4">
           </video>
         </div>
@@ -283,23 +315,7 @@
                 <div class="item item-video8">
           <video poster="" id="video8" autoplay controls muted loop height="100%">\
             <!-- Your video file here -->
-            <source src="static/videos/Media8.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-
-                <div class="item item-video9">
-          <video poster="" id="video9" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/Media9.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-
-                <div class="item item-video10">
-          <video poster="" id="video10" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/Media10.mp4"
+            <source src="static/videos/outdoor_env_web5.mp4"
             type="video/mp4">
           </video>
         </div>
@@ -316,15 +332,7 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@misc{azulay2024visuotactilebasedlearninginsertioncompliant,
-      title={Visuotactile-Based Learning for Insertion with Compliant Hands},
-      author={Osher Azulay and Dhruv Metha Ramesh and Nimrod Curtis and Avishai Sintov},
-      year={2024},
-      eprint={2411.06408},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2411.06408},
-}</code></pre>
+      <pre><code>fill bibtex</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
